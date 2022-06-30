@@ -7,7 +7,7 @@
         "php": "^7.2",
         "sylius/sylius": "^1.4"
     },
-    "prefer-stable": true,
+    "prefer-stable": false,
     "autoload": {
         "psr-4": {
             "Eknow\\SyliusSubscriptionPlugin\\": "src/",
