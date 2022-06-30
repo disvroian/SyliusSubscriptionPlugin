@@ -7,7 +7,6 @@
         "php": "^7.2",
         "sylius/sylius": "^1.4"
     },
-    "prefer-stable": false,
     "minimum-stability":"dev",
     "autoload": {
         "psr-4": {
