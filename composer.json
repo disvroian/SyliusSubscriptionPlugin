@@ -1,0 +1,20 @@
+{
+    "name": "eknow/sylius-subscription-plugin",
+    "type": "sylius-plugin",
+    "description": "Subscription for Sylius.",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2",
+        "sylius/sylius": "^1.4"
+    },
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Eknow\\SyliusSubscriptionPlugin\\": "src/",
+            "Tests\\Eknow\\SyliusSubscriptionPlugin\\": "tests/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": ["tests/Application/Kernel.php"]
+    }
+}
